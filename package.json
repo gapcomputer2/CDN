@@ -1,5 +1,17 @@
 {
+  "name": "cdn-file-service",
+  "version": "1.0.0",
+  "description": "Secure CDN file serving utility",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": ["cdn", "file-serving", "security"],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "vitest": "^3.2.3"
+    "vitest": "latest",
+    "typescript": "^5.0.0"
   }
 }
